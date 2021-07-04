@@ -1,0 +1,12 @@
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:app:Main request successful
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2021 12:16:13] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2021 12:16:14] "GET /flutter_service_worker.js?v=1156835395 HTTP/1.1" 404 -
+INFO:app:Status request successful
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2021 12:16:15] "GET /status HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2021 12:16:17] "GET /flutter_service_worker.js?v=1156835395 HTTP/1.1" 404 -
+INFO:app:Metrics request successful
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2021 12:16:22] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2021 12:16:23] "GET /flutter_service_worker.js?v=1156835395 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2021 12:16:30] "GET /notfound HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Jun/2021 12:16:32] "GET /flutter_service_worker.js?v=1156835395 HTTP/1.1" 404 -
